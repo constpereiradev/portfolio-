@@ -1,7 +1,5 @@
 ## Financas
 
-Base estrutural e organizacional dos projetos para formulários integrados com fluxo de aprovação
-
 - composer install
 - php artisan migrate
 - php artisan storage:link 
