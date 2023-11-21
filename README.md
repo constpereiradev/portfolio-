@@ -1,5 +1,5 @@
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://img.freepik.com/vetores-gratis/logotipo-grafico-abstrato_1043-36.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698537600&semt=ais)
 
 
 # Financas
