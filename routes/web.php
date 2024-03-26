@@ -138,5 +138,6 @@ Route::middleware(['auth:sanctum', 'verified'])->controller(TarefasController::c
 Route::middleware(['auth:sanctum', 'verified'])->controller(PortfolioController::class)->group(function () {
     Route::get('/portfolio', 'index')->name('portfolio.index');
     Route::get('/portfolio/landing', 'projetoLanding')->name('portfolio.landing');
+    Route::get('/portfolio/ecommerce', 'projetoEcommerce')->name('portfolio.ecommerce');
 });
 

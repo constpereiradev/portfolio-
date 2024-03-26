@@ -15,4 +15,8 @@ class PortfolioController extends Controller
     public function projetoLanding(){
         return Inertia::render('Portfolio/Landing');
     }
+
+    public function projetoEcommerce(){
+        return Inertia::render('Portfolio/Ecommerce');
+    }
 }

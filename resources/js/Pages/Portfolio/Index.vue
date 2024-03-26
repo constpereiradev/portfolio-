@@ -435,7 +435,7 @@
                                                 <div class="row">
                                                     <div class="col-sm-12">
                                                         <div class="row">
-                                                            <Link :href="route('portfolio.landing')">
+                                                            <Link :href="route('portfolio.ecommerce')">
                                                             <div class="col-sm-12 justify-content-center d-flex">
                                                                 <img :src="'/img/projeto1.png'" alt="Projeto 1"
                                                                     style="width: 55rem;">
