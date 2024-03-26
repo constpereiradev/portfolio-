@@ -17,6 +17,7 @@ use App\Http\Controllers\geradorQrcode;
 use App\Http\Controllers\geradorQrcodeController;
 use App\Http\Controllers\LocationController;
 use App\Http\Controllers\MonitorMecaluxController;
+use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\ProjetosController;
 use App\Http\Controllers\StreamController;
 use App\Http\Controllers\TarefasController;
@@ -134,12 +135,8 @@ Route::middleware(['auth:sanctum', 'verified'])->controller(TarefasController::c
 });
 
 
-
-Route::middleware(['auth:sanctum', 'verified'])->group(function () {
-    Route::get('/portfolio', function () {
-        return Inertia::render('Portfolio/Index');
-    });
-    Route::get('/portfolio/landing', function () {
-        return Inertia::render('Portfolio/Landing');
-    })->name('portfolio.landing');;
+Route::middleware(['auth:sanctum', 'verified'])->controller(PortfolioController::class)->group(function () {
+    Route::get('/portfolio', 'index')->name('portfolio.index');
+    Route::get('/portfolio/landing', 'projetoLanding')->name('portfolio.landing');
 });
+

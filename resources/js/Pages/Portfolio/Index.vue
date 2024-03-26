@@ -394,25 +394,25 @@
                         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <div class="card-body bg-white shadow-sm justify-content-center d-flex"
-                                        style="height: 300px;">
+                                    <div class="col-sm-12">
+                                        <div class="row mb-3">
+                                            <div class="col-sm-12 justify-content-center d-flex fs-4">
+                                                Projeto 1
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body shadow-sm justify-content-center d-flex">
                                         <div class="row">
                                             <div class="col-sm-12">
                                                 <div class="row">
                                                     <div class="col-sm-12">
-                                                        <div class="row mb-3">
-                                                            <div class="col-sm-12 justify-content-center d-flex fs-4">
-                                                                Projeto 1
-                                                            </div>
-                                                        </div>
                                                         <div class="row">
+                                                            <Link :href="route('portfolio.landing')">
                                                             <div class="col-sm-12 justify-content-center d-flex">
-
-                                                                <Link :href="route('portfolio.landing')">
-                                                                <button id="projeto1"
-                                                                    class="btn btn-secondary rounded ps-5 pe-5">Ver</button>
-                                                                </Link>
+                                                                <img :src="'/img/projeto1.png'" alt="Projeto 1"
+                                                                    style="width: 55rem;">
                                                             </div>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -422,25 +422,59 @@
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div id="projeto2"
-                                        class="card-body bg-white shadow-sm justify-content-center d-flex"
-                                        style="height: 300px;">
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <h4>Projeto 2</h4>
+                                    <div class="col-sm-12">
+                                        <div class="row mb-3">
+                                            <div class="col-sm-12 justify-content-center d-flex fs-4">
+                                                Projeto 2
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div id="projeto3"
-                                        class="card-body bg-white shadow-sm justify-content-center d-flex"
-                                        style="height: 300px;">
+                                    <div class="card-body shadow-sm justify-content-center d-flex">
                                         <div class="row">
                                             <div class="col-sm-12">
-                                                <h4>Projeto 3</h4>
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="row">
+                                                            <Link :href="route('portfolio.landing')">
+                                                            <div class="col-sm-12 justify-content-center d-flex">
+                                                                <img :src="'/img/projeto1.png'" alt="Projeto 1"
+                                                                    style="width: 55rem;">
+                                                            </div>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-sm-12">
+                                        <div class="row mb-3">
+                                            <div class="col-sm-12 justify-content-center d-flex fs-4">
+                                                Projeto 3
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body shadow-sm justify-content-center d-flex">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <div class="row">
+                                                            <Link :href="route('portfolio.landing')">
+                                                            <div class="col-sm-12 justify-content-center d-flex">
+                                                                <img :src="'/img/projeto1.png'" alt="Projeto 1"
+                                                                    style="width: 55rem;">
+                                                            </div>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
